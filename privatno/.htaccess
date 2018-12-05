@@ -1,0 +1,5 @@
+
+AuthUserFile   /var/www/WebDiP/2016_projekti/WebDiP2016x056/privatno/.htpasswd
+AuthType Basic
+AuthName "Unesite lozinku:"
+Require valid-user

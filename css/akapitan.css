@@ -1,0 +1,385 @@
+html {
+    position: relative;
+    min-height: 100%;
+    width: 100%;
+    font-family: Times New Roman;
+    font-size: 12px;
+}
+
+body {
+    background-color: white;
+    margin:0;
+    padding: 0;
+    
+    height: 100%;
+    margin-bottom: 150px;
+    
+    
+}
+
+#header {
+    position: fixed;
+    width: 100%;
+    height: 50px;
+    background-color: #ffcc66;
+    top:0;
+    
+    box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+    
+    
+}
+.headerInfo{
+    float: right;
+    padding: 10px;
+}
+#headerCrveno {
+    position: relative;
+    width: 100%;
+    height: 50px;
+    background-color: #cc0033;
+    border-left: 175px solid #660066;
+    box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+    
+    
+}
+
+#headerPlavo {
+    position: relative;
+    width: 100%;
+    height: 50px;
+    background-color: #3498db;
+    border-left: 175px solid #660066;
+    box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+    
+    
+}
+nav{
+    
+    position: fixed;
+    
+    width: 150px;
+    height: 100%;
+    float: left;
+    top: 50px;
+    background-color: #666666;
+}
+
+nav ul {
+    
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    
+    
+}
+
+nav li a {
+    line-height: 20px;
+    display: list-item;
+    padding: 11px 12px 11px 12px;
+    text-decoration: none;
+    color: #FFFFFF;
+    text-transform: uppercase;
+    font-size: 14px;
+    
+    vertical-align: middle;
+    
+    
+}
+nav li:first-child {
+    margin-top: 40px;
+}
+nav li a:hover {
+    background-color: #ffccff;
+    
+}
+.aktivni {
+    background-color: #660066;
+}
+
+.sadrzaj {
+    margin: 45px 0 0 200px;
+    padding: 15px;
+    min-height: 80%;
+    
+}
+.letak{
+    border-radius: 2px;
+    float: left;
+    margin: 20px;
+    width: 280px;
+    background-color: #b09393;
+    box-shadow: 1px 2px 4px rgba(0, 0, 0, .5);
+    
+}
+.letak figure {
+    margin: 0px;
+}
+
+
+.letak div{
+    padding-bottom: 10px;
+    
+    
+}
+
+
+
+.boxTpl{
+    width: 280px;
+    height: 130px;
+    
+    
+    margin: 0;
+    padding-top: 10px;
+    
+}
+
+#logout{
+    color: white;
+    float: left;
+    margin: 7px 10px auto 10px;
+    height: 35px;
+    width: 35px;
+    padding: 5px;
+    background-color: transparent;
+    border: none;
+    outline: none;
+    z-index: 50;
+}
+
+#logout img{
+    height: inherit;
+    width: inherit;
+}
+
+
+.ispravno{
+    background-color: greenyellow;
+}
+
+.neispravno{
+    background-color: orangered;
+}
+.nevidljivo{
+    display: hidden;
+}
+#red{
+    color: red;
+    font-size: 120%;
+}
+
+.inline-p{
+    width: 22%;
+    display: inline;
+    float: left;
+}
+#korisnici > .inline-p{
+    width: 24%;
+    height: 35px;
+}
+
+.gumb {
+    
+    
+    border-radius: 8px;
+    font-family: Arial;
+    color: #ffffff;
+    font-size: 16px;
+    
+    padding: 10px 20px 10px 20px;
+    text-decoration: none;
+}
+#plavo{
+    background: #3498db;
+}
+#crveno{
+    background: #cc0033;
+}
+#ljubicasto{
+    background-color: #660066;
+}
+
+table{
+    width:100%;
+    table-layout: fixed;
+    background: white ;
+    
+}
+.tbl-header{
+    background-color: #ffcc66;
+}
+.tbl-content{
+    background-color: #ffcc66;
+    
+    height:300px;
+    overflow-x:auto;
+    margin-top: 0px;
+    border: 1px solid rgba(255,255,255,0.3);
+}
+th{
+    background-color: #ffcc66;
+    
+    padding: 20px 15px;
+    text-align: left;
+    font-weight: 500;
+    font-size: 12px;
+    color: #fff;
+    text-transform: uppercase;
+}
+td{
+    overflow: hidden;
+    text-overflow: ellipsis;
+    padding: 15px;
+    text-align: left;
+    vertical-align:middle;
+    font-weight: 300;
+    font-size: 12px;
+    color: black;
+    border-bottom: solid 1px rgba(255,255,255,0.1);
+}
+
+
+
+@media screen and (max-width: 480px) {
+    body {
+        font-family: Arial;
+        font-size: 8px;
+        text-align: center;
+    }
+    
+    div#Lista img {
+        visibility: hidden;
+        display: none;
+        
+    }
+    .nav{
+        
+        position: relative;
+        margin-top: 0px;
+        width: 100%;
+        margin-bottom: 5px;
+        
+        
+    }
+    nav li:first-child{
+        margin-top: 0;
+    }
+    
+    .sadrzaj{
+        margin-left:0;
+        padding:75px;
+        clear:both;
+        
+    }
+    textarea { 
+        width: 80%;
+        height: 100px;
+        border: 3px none #cccccc;
+        border: 1px solid black;
+        box-sizing: border-box;
+    } 
+    #slika1{
+        top: 0px;
+        
+        position: absolute;
+        text-align: left;
+        width: 150px;
+        height: 45px;
+    }
+    #slika2{
+        top:50px;
+        
+        position: absolute;
+        width: 150px;
+        height: 45px;
+    }
+    #slika3{
+        top:100px;
+        
+        position: absolute;
+        width: 150px;
+        height: 45px;
+    }
+    .proizvod_slika img{
+        width: 150px;
+        height: 45px;
+        position: static;
+        
+    }
+}
+
+@media (max-width: 1024px) and (min-width: 480px) {
+    body {
+        font-family: Verdana;
+        font-size: 10px;
+    }
+    
+    .proizvod_slika img{
+        width: 100%;
+        height: 100%;
+        position: absolute;
+        
+    }
+    .qwe{
+        width: 50%;
+        height: 17%;
+    }
+    
+    
+    dl{
+        width: 100%;
+    }
+    #slika1{
+        top: 0px;
+        left: 0px;
+        position: absolute;
+    }
+    #slika2{
+        top:50px;
+        left:15%;
+        position: absolute;
+    }
+    #slika3{
+        top:100px;
+        left:25%;
+        position: absolute;
+    }
+    textarea { 
+        width: 80%;
+        height: 250px}
+}
+
+@media screen and (min-width:1024px){
+    dl{width: 700px;}
+    dt{width: 100px}
+    #bubnjevi, #android, #bicikl{width: 500px; height: 400px}
+    #knjiga {height: 500px; width: 300px;}
+    
+    .proizvod_slika img{
+        width: 400px;
+        height: 133px;
+        position: relative;
+        
+    }
+    #slika1{
+        top: 0px;
+        left: 0px;
+        position: absolute;
+    }
+    #slika2{
+        top:50px;
+        left:15%;
+        position: absolute;
+    }
+    #slika3{
+        top:100px;
+        left:25%;
+        position: absolute;
+    }
+    textarea { 
+        width: 50%;
+        height: 250px}
+    
+}
+

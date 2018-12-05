@@ -1,0 +1,111 @@
+<style type="text/css">
+#header {
+    position: relative;
+    width: 100%;
+    height: 50px;
+    background-color: #660066;
+    border-left: 175px solid #660066;
+    box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+    
+    
+}
+nav{
+    
+    position: fixed;
+    
+    width: 150px;
+    height: 100%;
+    float: left;
+    top: 50px;
+    background-color: #666666;
+}
+
+nav ul {
+    
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    
+    
+}
+
+nav li a {
+    line-height: 20px;
+    display: list-item;
+    padding: 11px 12px 11px 12px;
+    text-decoration: none;
+    color: #FFFFFF;
+    text-transform: uppercase;
+    font-size: 14px;
+    
+    vertical-align: middle;
+    
+    
+}
+nav li:first-child {
+    margin-top: 130px;
+}
+nav li a:hover {
+    background-color: #ffccff;
+    
+}
+.aktivni {
+    background-color: #660066;
+}
+
+.sadrzaj {
+    margin: 20px 0 0 200px;
+    padding: 15px;
+    min-height: 80%;
+    
+}
+.letak{
+    border-radius: 2px;
+    float: left;
+    margin: 20px;
+    width: 280px;
+    background-color: #b09393;
+    box-shadow: 1px 2px 4px rgba(0, 0, 0, .5);
+    
+}
+.letak figure {
+    margin: 0px;
+}
+
+
+.letak div{
+    padding-bottom: 10px;
+    
+    
+}
+
+
+
+.boxTpl{
+    width: 280px;
+    height: 130px;
+    
+    
+    margin: 0;
+    padding-top: 10px;
+    
+}
+
+#logout{
+    color: white;
+    float: left;
+    margin: 7px 10px auto 10px;
+    height: 35px;
+    width: 35px;
+    padding: 5px;
+    background-color: transparent;
+    border: none;
+    outline: none;
+    z-index: 50;
+}
+
+#logout img{
+    height: inherit;
+    width: inherit;
+}
+</style>
