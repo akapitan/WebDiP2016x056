@@ -1,4 +1,6 @@
 <?php
+
+//Ovo je proba
 function dohvati() {
     $url = "http://barka.foi.hr/WebDiP/pomak_vremena/pomak.php?format=xml";
     if (!($fp = fopen($url, 'r'))) {
